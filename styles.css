@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    height: 9em;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-image: url('assets/menstrual-hero_mobile.jpg');
+    background-size: 60em;
+    background-position: center;
+    height: 70em;
+    width: 100%;
+}
+
+.intro h2, h3, p {
+    text-align: center;
+}
+
+.intro h2 {
+    padding-top: 1.3em;
+    font-size: 2.5em;
+}
+
+.intro h3 {
+    font-size: 3.5em;
+    padding-top: .5em;
+}
+
+.intro p {
+    font-size: 2em;
+    padding-top: 1.3em;
+}
+
+.button {
+    width: 12em;
+    background-color: orange;
+    padding: 0.5em;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 1em;
+    align-self: center;
+}
+
+section {
+    height: 60em;
+}
+
+.care {  
+    background-image: url(assets/bamboo_mobile.jpg);
+    background-size: contain;
+}
+
+.care h3 {
+    font-weight: 900;
+    padding: 2em .5em 0;
+    font-size: 5em;
+    line-height: 1em;
+    color: white;
+}
+
+.care p {
+    padding: 1em 3em;
+    color: white;
+    font-size: 2.5em;
+}
+
+.noplastics {
+    background-image: url(assets/pad_detail_mobile.jpg);
+    background-size: cover;
+}
+
+.noplastics h3 {
+    font-weight: 900;
+    padding: 2em .5em 0;
+    text-align: left;
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.noplastics p {
+    margin-left: 1em;
+    padding-right: 10em;
+    padding-top: 1em;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+.designed {
+    background-image: url(assets/pad_in_hand_mobile.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    width: 100%;
+}
+
+.designed h3 {
+    font-weight: 900;
+    padding: 1em .5em 0;
+    text-align: center;
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.designed p {
+    font-size: 2em;
+    padding-top: 1em;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.products {
+    width: 100%;  
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 5em auto;
+}
+
+.products div {
+    height: 50em;
+    margin-top: 25em;
+}
+
+.products div p {
+    font-size: 2.5em;
+    text-align: left;
+    padding: 1em 2em 0;
+}
+
+.products div span {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 1.5em;
+}
