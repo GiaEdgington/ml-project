@@ -14,8 +14,26 @@ body {
 }
 
 .header {
-    height: 9em;
-    background-color: white;
+    height: 11em;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    height: auto;
+}
+
+.header span {
+    font-size: 2em;
+    margin: 0 1.5em;
+}
+
+.header p {
+    font-size: 2em;
+    color: grey;
+    margin-right: 1.5em;
 }
 
 .main {
@@ -30,7 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url('assets/menstrual-hero_mobile.jpg');
-    background-size: 60em;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 70em;
@@ -58,9 +76,10 @@ body {
 
 .button {
     width: 12em;
-    background-color: orange;
-    padding: 0.5em;
+    background-color: #FD6A02;
+    padding: 0.75em;
     font-size: 2em;
+    font-weight: bolder;
     color: white;
     text-align: center;
     margin-top: auto;
@@ -103,11 +122,12 @@ section {
     padding: 2em .5em 0;
     text-align: left;
     font-size: 4em;
+    margin: 1em 1em 0;
     line-height: 1em;
 }
 
 .noplastics p {
-    margin-left: 1em;
+    margin-left: 2.5em;
     padding-right: 10em;
     padding-top: 1em;
     font-size: 2.5em;
