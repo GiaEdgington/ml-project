@@ -137,7 +137,6 @@ section {
 }
 
 .products {
-    width: 100%; 
     height: 100%; 
 }
 
@@ -150,6 +149,10 @@ section {
 .products div {
     height: 50em;
     margin-bottom: 25em;
+}
+
+.products div img {
+    width: 100%;
 }
 
 .products div p {
@@ -169,4 +172,34 @@ section {
     background-image: url(assets/new-to-public-goods_mobile.jpg);
     background-size: cover;
 }
- 
+
+.new h3 {
+    font-size: 4em;
+    margin-top: 2em;
+}
+
+.new p {
+    font-size: 2em;
+    padding: 2em;
+}
+
+.press {
+    background-image: url(assets/press-quotes.png);
+    background-size: contain;
+    width: 80%;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 20em;
+}
+
+.quote {
+    margin: 2em 0 0;
+    color: grey;
+    font-size: 1.5em;
+}
+
+footer {
+    height: 50em;
+    width: 100%;
+    background-color: black;
+}
