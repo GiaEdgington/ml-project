@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 body, html {
@@ -31,6 +32,7 @@ body {
     background-image: url('assets/menstrual-hero_mobile.jpg');
     background-size: 60em;
     background-position: center;
+    background-repeat: no-repeat;
     height: 70em;
     width: 100%;
 }
@@ -68,6 +70,8 @@ body {
 
 section {
     height: 60em;
+    width: 93%;
+    margin: 2.5em 0 0;
 }
 
 .care {  
@@ -113,8 +117,8 @@ section {
 .designed {
     background-image: url(assets/pad_in_hand_mobile.jpg);
     background-size: cover;
+    width: 93%;
     background-position-y: bottom;
-    width: 100%;
 }
 
 .designed h3 {
@@ -133,18 +137,19 @@ section {
 }
 
 .products {
-    width: 100%;  
+    width: 100%; 
+    height: 100%; 
 }
 
-.products h2 {
+.collection {
     text-align: center;
     font-size: 3em;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 
 .products div {
     height: 50em;
-    margin-top: 25em;
+    margin-bottom: 25em;
 }
 
 .products div p {
@@ -159,3 +164,9 @@ section {
     text-align: left;
     padding-left: 1.5em;
 }
+
+ .new {
+    background-image: url(assets/new-to-public-goods_mobile.jpg);
+    background-size: cover;
+}
+ 
