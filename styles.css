@@ -207,7 +207,11 @@ section {
     padding: 2em;
 }
 
-.press {
+.press-mobile {
+    visibility: visible;
+}
+
+.press-mobile section {
     background-image: url(assets/press-quotes.png);
     background-size: contain;
     width: 80%;
@@ -216,7 +220,11 @@ section {
     height: 20em;
 }
 
-.quote {
+.press-desktop {
+    visibility: hidden;
+}
+
+.press-mobile .quote {
     margin: 2em 0 0;
     color: grey;
     font-size: 1.5em;
@@ -236,6 +244,7 @@ footer {
         justify-content: center;
         align-content: center;
         align-items: center;
+        background-color: beige;
     }
 
     section {
@@ -387,17 +396,43 @@ footer {
         background-size: cover;
         background-position-y: bottom;
         background-repeat: no-repeat;
-        
+        width: 100%;
     }
 
     .new h3 {
         font-size: 2em;
-        margin-left: 1em;
+        margin-left: 2em;
     }
 
     .new p {
         font-size: 1em;
+        margin-left: 2em;
         width: 30%;
     }
-    
+
+    .press-mobile {
+        display: none;
+    }
+
+    .press-desktop {
+        visibility: visible;
+        margin-left: 4em;
+    }
+
+    .press-desktop section {
+        background-image: url(assets/press-quotes.png);
+        background-size: contain;
+        width: 25%;
+        height: 5em;
+        background-repeat: no-repeat;
+    }
+
+    .press-desktop span {
+        color: grey;
+        font-size: .75em;
+    }
+
+    footer {
+        height: 15em;
+    }
 }
