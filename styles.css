@@ -13,6 +13,11 @@ body {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: grey;
+}
+
 .header {
     height: 11em;
     display: flex;
@@ -287,11 +292,14 @@ footer {
         padding: 0.75em;
         font-size: 1.3em;
         font-weight: bolder;
-        color: white;
         text-align: center;
         margin-top: 1.5em;
         margin-left: 4.5em;
         align-self: flex-start;
+    }
+
+    .button-desktop a {
+        color: white;
     }
 
     .care {  
@@ -430,6 +438,35 @@ footer {
     .press-desktop span {
         color: grey;
         font-size: .75em;
+    }
+
+    .header {
+        display: none;
+    }
+
+    nav {
+        height: 11em;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    nav img {
+        width: 10%;
+    }
+
+    nav a {
+        margin: 0 1em;
+        padding: .35em;
+    }
+
+    nav a:hover {
+        color: #FD6A02;
+    }
+
+    .trial {
+        border: 1px #FD6A02 solid;
     }
 
     footer {
