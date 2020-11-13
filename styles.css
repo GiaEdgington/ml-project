@@ -13,6 +13,10 @@ body {
     font-size: 16px;
 }
 
+nav {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: grey;
@@ -77,6 +81,10 @@ a {
 .intro p {
     font-size: 2em;
     padding-top: 1.3em;
+}
+
+.button-desktop {
+    display: none;
 }
 
 .button-mobile {
@@ -200,11 +208,13 @@ section {
  .new {
     background-image: url(assets/new-to-public-goods_mobile.jpg);
     background-size: cover;
+    width: 100%;
 }
 
 .new h3 {
     font-size: 4em;
     margin-top: 2em;
+    margin-left: 1em;
 }
 
 .new p {
@@ -214,23 +224,25 @@ section {
 
 .press-mobile {
     visibility: visible;
+    width: 80%;
 }
 
 .press-mobile section {
     background-image: url(assets/press-quotes.png);
     background-size: contain;
-    width: 80%;
     background-repeat: no-repeat;
     text-align: center;
     height: 20em;
+    margin: 0 auto;
 }
 
 .press-desktop {
-    visibility: hidden;
+    display: none;
 }
 
-.press-mobile .quote {
-    margin: 2em 0 0;
+.press-mobile p {
+    text-align: center;
+    margin: 2em auto;
     color: grey;
     font-size: 1.5em;
 }
@@ -287,6 +299,8 @@ footer {
     }
 
     .button-desktop {
+        display: flex;
+        justify-content: center;
         width: 9em;
         background-color: #FD6A02;
         padding: 0.75em;
@@ -423,7 +437,8 @@ footer {
     }
 
     .press-desktop {
-        visibility: visible;
+        display: flex;
+        flex-direction: column;
         margin-left: 4em;
     }
 
